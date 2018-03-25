@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="399.0" text="UserLogin" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="242.0" prefWidth="397.0">
+         <children>
+            <Button layoutX="150.0" layoutY="173.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="187.0" text="Logare" />
+            <TextField layoutX="150.0" layoutY="29.0" promptText="ID utilizator" />
+            <PasswordField layoutX="150.0" layoutY="85.0" promptText="parola" />
+            <Label layoutX="56.0" layoutY="34.0" text="Utilizator" />
+            <Label layoutX="56.0" layoutY="90.0" text="Parola" />
+            <Button layoutX="149.0" layoutY="219.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="190.0" text="Vreau un cont nou!" textFill="#9600ff" />
+         </children>
+         <effect>
+            <Glow />
+         </effect></AnchorPane>
+  </content>
+</TitledPane>
