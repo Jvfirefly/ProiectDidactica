@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="44.0" layoutY="42.0" text="Nume" />
+      <Label layoutX="43.0" layoutY="78.0" text="Prenume" />
+      <Label layoutX="45.0" layoutY="150.0" text="Grupa/Clasa" />
+      <Label layoutX="44.0" layoutY="114.0" text="Adresa de mail" />
+      <Label layoutX="44.0" layoutY="294.0" text="Verificare parola" />
+      <Label layoutX="44.0" layoutY="258.0" text="Parola" />
+      <Button layoutX="205.0" layoutY="327.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="187.0" text="Trimite" />
+      <TextField layoutX="205.0" layoutY="37.0" text="Nume" />
+      <TextField layoutX="205.0" layoutY="73.0" text="Prenume" />
+      <TextField layoutX="205.0" layoutY="145.0" text="Exemplu: 10B" />
+      <TextField layoutX="205.0" layoutY="109.0" text="user@emailServer.com" />
+      <PasswordField layoutX="205.0" layoutY="253.0" text="Parola" />
+      <PasswordField layoutX="205.0" layoutY="289.0" text="Parola" />
+      <TextField layoutX="205.0" layoutY="217.0" text="Nume utilizator" />
+      <Label layoutX="45.0" layoutY="222.0" text="Utilizator" />
+   </children>
+</AnchorPane>
